@@ -1,18 +1,14 @@
 {
   "phish_server": {
     "listen_url": "0.0.0.0:80",
-    "use_tls": false,
-    "cert_path": "gophish_phish.crt",
-    "key_path": "gophish_phish.key"
+    "use_tls": false
   },
   "admin_server": {
     "listen_url": "0.0.0.0:3333",
-    "use_tls": false,
-    "cert_path": "gophish_admin.crt",
-    "key_path": "gophish_admin.key"
+    "use_tls": false
   },
   "phish_server_url": "https://phish.chat2desk.shop",
-  "admin_server_url": "https://admin.chat2desk.shop:3333",
+  "admin_server_url": "https://admin.chat2desk.shop",
   "db_name": "sqlite3",
   "db_path": "gophish.db",
   "migrations_prefix": "db/db_",
